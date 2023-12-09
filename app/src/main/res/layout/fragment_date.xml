@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".DateFragment">
+
+    <ImageView
+        android:layout_width="724dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="-30dp"
+        android:layout_marginStart="175dp"
+        android:rotation="-30"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo"
+        android:alpha="0.5"
+        android:layout_gravity="center"
+        />
+    <com.example.frestaurant.CustomCalendarView
+        android:id="@+id/CustomCalendarViewDate"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/left_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:alpha="0.0"
+        >
+
+    </Button>
+    <Button
+        android:id="@+id/right_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="330dp"
+        android:alpha="0.0"
+        ></Button>
+
+    <RadioGroup
+        android:id="@+id/radioGroupShifts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="375dp"
+        android:layout_marginHorizontal="20dp">
+        <RadioButton
+            android:id="@+id/radioButtonMorning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="早班 10:00 - 18:00"
+            android:tag="早班 10:00 - 18:00"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonAfternoon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="中班 16:00 - 21:00"
+            android:tag="中班 16:00 - 21:00"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonEvening"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="晚班 18:00 - 22:00"
+            android:tag="晚班 18:00 - 22:00"/>
+        />
+
+    </RadioGroup>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="25dp"
+    android:layout_marginTop="535dp"
+    android:textSize="24dp"
+    android:text="備註：*20號收件"
+    android:textColor="#BF1717"/>
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="410dp"
+        android:text="送出" />
+
+</FrameLayout>

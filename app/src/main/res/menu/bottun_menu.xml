@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/home"
+        android:title="首頁"
+        android:icon="@drawable/home"/>
+    <item
+        android:id="@+id/date"
+        android:title="選擇日期"
+        android:icon="@drawable/wall_clock"/>
+    <item
+        android:id="@+id/setting"
+        android:title="設定"
+        android:icon="@drawable/setting"/>
+    <item
+        android:id="@+id/notify"
+        android:title="通知"
+        android:icon="@drawable/notification"/>
+</menu>

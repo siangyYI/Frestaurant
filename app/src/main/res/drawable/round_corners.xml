@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFFFF"/> <!-- 您可以更改这里的颜色来设置背景色 -->
+    <corners android:radius="35dp"/> <!-- 设置圓角的半径 -->
+    <!-- 如果您想要设置每个角的半径，可以单独指定，例如：
+    <corners
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp"
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp"/> -->
+</shape>

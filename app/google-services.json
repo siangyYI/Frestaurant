@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "498385802458",
+    "firebase_url": "https://f-restaurant-default-rtdb.firebaseio.com",
+    "project_id": "f-restaurant",
+    "storage_bucket": "f-restaurant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498385802458:android:f3d8db590bcd4b5dc501e3",
+        "android_client_info": {
+          "package_name": "com.example.frestaurant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498385802458-ff5brv0l8dvmrl2afccovb01rojsrer9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4n08CKBcJh3ZvlK7bJZNCNVAxtOjM0aQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "498385802458-ff5brv0l8dvmrl2afccovb01rojsrer9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

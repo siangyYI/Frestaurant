@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeFragment"
+    android:background="@color/white">
+    <ImageView
+        android:layout_width="724dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="-30dp"
+        android:layout_marginStart="175dp"
+        android:rotation="-30"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo"
+        android:alpha="0.5"
+        android:layout_gravity="center"
+        />
+    <com.example.frestaurant.CustomCalendarView
+    android:id="@+id/CustomCalendarView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/profilework">
+    </ImageView>
+    <TextView
+        android:id="@+id/worker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="70dp"
+        android:background="#FFFFFF"
+        android:padding="16dp"
+        android:text="管理者"
+        android:textSize="24sp" />
+    <Button
+        android:id="@+id/left__btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:alpha="0.0"
+        >
+
+    </Button>
+    <Button
+        android:id="@+id/right__btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="330dp"
+        android:alpha="0.0"
+        />
+    <TextView
+        android:id="@+id/timeSet"
+        android:layout_width="match_parent"
+        android:layout_height="192dp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="350dp"
+        android:textSize="28dp" />
+
+
+</FrameLayout>

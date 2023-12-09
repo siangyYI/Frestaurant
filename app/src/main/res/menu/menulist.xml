@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="首頁"
+        android:id="@+id/nav_home"
+        android:icon="@drawable/baseline_home_24">
+    </item>
+    <item android:title="過去班表"
+        android:id="@+id/nav_post"
+        android:icon="@drawable/baseline_access_time_filled_24">
+    </item>
+    <item android:title="人員管理"
+        android:id="@+id/nav_now"
+        android:icon="@drawable/ic_group_add_black_24dp">
+    </item>
+    <item android:title="通知"
+        android:id="@+id/nav_notify"
+        android:icon="@drawable/baseline_doorbell_24">
+    </item>
+    <item android:title="設定"
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/baseline_settings_24">
+    </item>
+</menu>

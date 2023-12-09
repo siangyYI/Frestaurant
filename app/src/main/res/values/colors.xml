@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="todayBackgroundColor">	#FFDCB9</color>
+    <color name="lavender">#2196F3</color>
+    <color name="morningShift">#FFCC80</color>
+    <color name="afternoonShift">#FFAB91</color>
+    <color name="nightShift">#B39DDB</color>
+
+</resources>
